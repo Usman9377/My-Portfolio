@@ -1,116 +1,42 @@
-site_name: "🌱 Muhammad Usman | 🤖 AI in Plant Breeding"
-site_description: >
-  Applying Artificial Intelligence and Data Science
-  to Plant Breeding & Agricultural Research
+site_name: 🌱 Muhammad Usman | 🤖 AI in Plant Breeding
+site_description: Applying 🤖 AI & 📊 Data Science to 🌾 Plant Breeding
 site_author: Muhammad Usman
-site_url: https://usman9377.github.io/
+site_url: https://usman9377.github.io/My-Portfolio/   # MUST match repo
 
-# ──────────────────────────────
-# Navigation
-# ──────────────────────────────
+# Use directory URLs for proper links on GitHub Pages
+use_directory_urls: true
+
+# ────────── Navigation ──────────
 nav:
-  - "🏠 Home": index.md
-  - "🚀 Projects":
-      - "🤖 AI & Data Science": Projects.md
-  - "🧠 Skills": Skills.md
-  - "✍️ Blog": Blog.md
-  - "📄 Resume": Resume.md
-  - "👨‍🔬 About Me": About.md
-  - "📬 Contact": Contact.md
+  - 🏠 Home: index.md
+  - 🚀 Projects: Projects.md
+  - 🧠 Skills: Skills.md
+  - ✍️ Blog: Blog.md
+  - 📄 Resume: Resume.md
+  - 👨‍🔬 About Me: About.md
+  - 📬 Contact: Contact.md
 
-# ──────────────────────────────
-# Theme Configuration
-# ──────────────────────────────
 theme:
   name: material
   language: en
-
-  icon:
-    logo: material/sprout        # Growth + plant breeding 🌱
-    repo: fontawesome/brands/github
-
   palette:
-    # 🌞 LIGHT MODE — Agriculture & Research
     - scheme: default
       primary: green
-      accent: amber              # warmth + research highlights
-      toggle:
-        icon: material/weather-night
-        name: Dark mode (AI view) 🌙
-
-    # 🌙 DARK MODE — AI, Data Science & Code
+      accent: light green
     - scheme: slate
-      primary: deep purple       # premium AI feel 🤖
-      accent: cyan               # data & intelligence
-      toggle:
-        icon: material/weather-sunny
-        name: Light mode (Field view) ☀️
-
+      primary: teal
+      accent: cyan
   font:
-    text: Inter                  # modern, elegant, readable
-    code: JetBrains Mono         # best for AI & data science
-
+    text: Inter
+    code: JetBrains Mono
   features:
-    # 🧭 Navigation
     - navigation.tabs
     - navigation.top
     - navigation.instant
     - navigation.tracking
     - navigation.expand
     - navigation.footer
-    - navigation.sections
-
-    # 🔍 Search
     - search.highlight
     - search.suggest
-    - search.share
-
-    # 📄 Content & UX
     - content.code.copy
-    - content.code.annotate
     - content.tabs.link
-    - content.tooltips
-    - content.action.edit
-
-    # ✨ Polish
-    - header.autohide
-
-
-
-# ──────────────────────────────
-# Plugins
-# ──────────────────────────────
-plugins:
-  - search
-
-# ──────────────────────────────
-# Markdown Extensions
-# ──────────────────────────────
-markdown_extensions:
-  - admonition
-  - toc:
-      permalink: true
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - pymdownx.inlinehilite
-  - pymdownx.details
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-# ──────────────────────────────
-# Extra
-# ──────────────────────────────
-extra:
-  social:
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/muhammad-usman-3b212919a/
-    - icon: fontawesome/brands/github
-      link: https://github.com/Usman9377
-    - icon: fontawesome/brands/kaggle
-      link: https://www.kaggle.com/ranamuhammmadusman
-
-copyright: >
-  © 2026 Muhammad Usman · Built with MkDocs Material
