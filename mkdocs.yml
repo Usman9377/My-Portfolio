@@ -18,6 +18,10 @@ nav:
 theme:
   name: material
   language: en
+
+  logo: assets/images/usman.jpg      # 👈 Your photo here
+  favicon: assets/images/usman.jpg   # 👈 Optional
+
   palette:
     - scheme: default
       primary: green
@@ -25,9 +29,11 @@ theme:
     - scheme: slate
       primary: teal
       accent: cyan
+
   font:
     text: Inter
     code: JetBrains Mono
+
   features:
     - navigation.tabs
     - navigation.top
