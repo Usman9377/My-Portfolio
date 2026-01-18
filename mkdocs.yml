@@ -1,9 +1,7 @@
-site_name: 🌱 Muhammad Usman | 🤖 AI in Plant Breeding
-site_description: Applying 🤖 AI & 📊 Data Science to 🌾 Plant Breeding
-site_author: Muhammad Usman
-site_url: https://usman9377.github.io/My-Portfolio/   # MUST match repo
-
-# Use directory URLs for proper links on GitHub Pages
+site_name: "🌱 Muhammad Usman | 🤖 AI in Plant Breeding"
+site_description: "Applying 🤖 Artificial Intelligence & 📊 Data Science to 🌾 Plant Breeding & Agricultural Research"
+site_author: "Muhammad Usman"
+site_url: "https://usman9377.github.io/My-Portfolio/"
 use_directory_urls: true
 
 # ────────── Navigation ──────────
@@ -12,6 +10,7 @@ nav:
   - 🚀 Projects: Projects.md
   - 🧠 Skills: Skills.md
   - ✍️ Blog: Blog.md
+  - 🎓 Tasks: Tasks.md
   - 📄 Resume: Resume.md
   - 👨‍🔬 About Me: About.md
   - 📬 Contact: Contact.md
