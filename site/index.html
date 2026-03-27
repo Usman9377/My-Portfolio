@@ -48,10 +48,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Poppins";--md-code-font:"JetBrains Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -69,7 +71,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="light-green">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="teal">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -78,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-my-portfolio" class="md-skip">
+        <a href="#explore-my-work" class="md-skip">
           Skip to content
         </a>
       
@@ -124,13 +126,21 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="light-green"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="cyan"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="deep-purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
     
   
 </form>
@@ -326,7 +336,7 @@
   
     
   
-  👨‍🔬 About Me
+  👨‍🔬 About
 
       </a>
     </li>
@@ -372,7 +382,9 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="." title="🌱 Muhammad Usman | 🤖 AI in Plant Breeding" class="md-nav__button md-logo" aria-label="🌱 Muhammad Usman | 🤖 AI in Plant Breeding" data-md-component="logo">
       
@@ -396,8 +408,6 @@
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
-      
-        
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
@@ -441,8 +451,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -466,17 +474,6 @@
     <span class="md-ellipsis">
       
         🤝 Connect With Me
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-structure" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📁 Project Structure
       
     </span>
   </a>
@@ -640,7 +637,7 @@
   <span class="md-ellipsis">
     
   
-    👨‍🔬 About Me
+    👨‍🔬 About
   
 
     
@@ -687,65 +684,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#explore-my-work" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🌐 Explore My Work
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#connect-with-me" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🤝 Connect With Me
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-structure" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📁 Project Structure
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -756,32 +694,41 @@
 
 
 
-<h1 id="welcome-to-my-portfolio">👋 Welcome to My Portfolio</h1>
-<p>Hi, I’m <strong>Muhammad Usman</strong> 🌱🤖<br />
-I’m passionate about <strong>Artificial Intelligence, Data Science, and AI-driven Plant Breeding</strong>.<br />
-This portfolio showcases my <strong>projects, skills, and learning journey</strong> as I explore how AI can solve real-world problems.</p>
+<div class="top-profile" style="display:flex; justify-content:space-between; align-items:center; margin-top:20px;">
+
+  <!-- Left Side: Name + Title -->
+<div style="max-width:70%;">
+  <h1 style="font-size:2.2rem; font-weight:700; margin-bottom:5px; color:#00796b;">
+    👨‍🔬 Muhammad Usman
+  </h1>
+  <p style="font-size:1rem; line-height:1.5; color:#555;">
+    🌱 <b style="color:#009688;">Scientific Officer</b> (Learning AI in Plant Breeding & Genetics) | 
+    📊 <b style="color:#009688;">Data Science Learner</b> | 
+    🤖 <b style="color:#009688;">Researcher</b>
+  </p>
+  <hr style="border:none; border-top:2px solid #009688; width:50px; margin-left:0; margin-top:10px;">
+</div>
+  <!-- Right Side: Profile Image -->
+  <img src="assets/images/usman.jpg" 
+       style="width:120px; height:120px; object-fit:cover; border-radius:8px; 
+              border:3px solid #009688; box-shadow:0 6px 15px rgba(0,0,0,0.25);" />
+</div>
+
 <hr />
 <h2 id="explore-my-work">🌐 Explore My Work</h2>
-<p>For complete documentation, code, and projects, visit my GitHub repository:<br />
-🔗 <strong><a href="https://github.com/Usman9377">My GitHub Portfolio</a></strong></p>
+<p>🔗 <strong><a href="https://github.com/Usman9377">My GitHub Portfolio</a></strong></p>
 <hr />
 <h2 id="connect-with-me">🤝 Connect With Me</h2>
-<p>Let’s connect, collaborate, and grow together 🚀  </p>
 <ul>
-<li>💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/muhammad-usman-3b212919a/">Muhammad Usman</a></li>
-<li>💻 <strong>GitHub:</strong> <a href="https://github.com/Usman9377">Usman9377</a></li>
-<li>📘 <strong>Facebook:</strong> <a href="https://web.facebook.com/?_rdc=1&amp;_rdr#">Muhammad Usman</a></li>
-<li>📊 <strong>Kaggle:</strong> <a href="https://www.kaggle.com/ranamuhammmadusman">Rana Muhammad Usman</a></li>
+<li><a href="https://www.linkedin.com/in/muhammad-usman-3b212919a/">💼 LinkedIn</a>  </li>
+<li><a href="https://github.com/Usman9377">💻 GitHub</a>  </li>
+<li><a href="https://web.facebook.com/?_rdc=1&amp;_rdr#">📘 Facebook</a>  </li>
+<li><a href="https://www.kaggle.com/ranamuhammmadusman">📊 Kaggle</a>  </li>
+<li><a href="https://www.youtube.com/@PlantBreeder-9377">📺 YouTube</a></li>
+<li><a href="https://whatsapp.com/channel/0029Vb7JHUQDp2QAAWG7AC0b">📱 WhatsApp Channel</a>
+  <!-- Replace with your actual channel -->
+</li>
 </ul>
-<hr />
-<h2 id="project-structure">📁 Project Structure</h2>
-<p>Below is the basic structure of this portfolio website built using <strong>MkDocs</strong>:</p>
-<p>```text
-Muhammad-Usman-portfolio/
-│
-├── mkdocs.yml        # Configuration file
-└── docs/
-    └── index.md      # Home page of the site</p>
 
 
 
@@ -799,8 +746,6 @@ Muhammad-Usman-portfolio/
             </div>
           
           
-  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
-
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -863,7 +808,7 @@ Muhammad-Usman-portfolio/
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.top", "navigation.instant", "navigation.tracking", "navigation.expand", "navigation.footer", "search.highlight", "search.suggest", "content.code.copy", "content.tabs.link"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.instant", "navigation.tracking", "navigation.expand", "navigation.footer", "toc.integrate", "search.highlight", "search.suggest", "content.code.copy", "content.tooltips"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.79ae519e.min.js"></script>

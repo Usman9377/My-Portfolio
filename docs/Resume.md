@@ -1,7 +1,13 @@
 # 📄 Resume — Muhammad Usman
 
-<p style="float:right; width:100px; margin-left:15px; margin-top:0; margin-bottom:5px;">
-  <img src="usman.jpg" alt="Muhammad Usman" style="width:100px; border-radius:8px; border:2px solid #4CAF50;">
+<!-- Profile Image on Resume Page -->
+<p style="float:right; width:120px; margin-left:20px; margin-top:0; margin-bottom:10px;">
+  <img src="assets/images/usman.jpg" 
+       alt="Muhammad Usman" 
+       style="width:120px; height:120px; object-fit:cover; 
+              border-radius:8px; 
+              border:3px solid #009688; 
+              box-shadow:0 4px 12px rgba(0,0,0,0.2);">
 </p>
 
 👨‍🔬 **Scientific Officer | Plant Breeding & Genetics**  

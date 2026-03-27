@@ -12,36 +12,85 @@ nav:
   - ✍️ Blog: Blog.md
   - 🎓 Tasks: Tasks.md
   - 📄 Resume: Resume.md
-  - 👨‍🔬 About Me: About.md
+  - 👨‍🔬 About: About.md
   - 📬 Contact: Contact.md
 
+# ────────── Theme ──────────
 theme:
   name: material
   language: en
 
-  logo: assets/images/usman.jpg      # 👈 Your photo here
-  favicon: assets/images/usman.jpg   # 👈 Optional
+  # Logo & Favicon
+  logo: assets/images/usman.jpg
+  favicon: assets/images/usman.jpg
 
+  # Palette: Dark + Light Mode
   palette:
-    - scheme: default
-      primary: green
-      accent: light green
     - scheme: slate
+      primary: deep-purple
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
       primary: teal
-      accent: cyan
+      accent: deep-purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 
+  # Fonts
   font:
-    text: Inter
+    text: Poppins
     code: JetBrains Mono
 
+  # Features
   features:
     - navigation.tabs
+    - navigation.sections
     - navigation.top
     - navigation.instant
     - navigation.tracking
     - navigation.expand
     - navigation.footer
+    - toc.integrate
     - search.highlight
     - search.suggest
     - content.code.copy
-    - content.tabs.link
+    - content.tooltips
+
+# ────────── Extra Styling ──────────
+extra_css:
+  - stylesheets/extra.css
+
+# ────────── Plugins ──────────
+plugins:
+  - search
+
+# ────────── Extra Settings ──────────
+extra:
+  social_links:
+    - name: LinkedIn
+      icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/muhammad-usman-3b212919a/
+      emoji: 💼
+    - name: GitHub
+      icon: fontawesome/brands/github
+      link: https://github.com/Usman9377
+      emoji: 💻
+    - name: Facebook
+      icon: fontawesome/brands/facebook
+      link: https://web.facebook.com/?_rdc=1&_rdr#
+      emoji: 📘
+    - name: Kaggle
+      icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/ranamuhammmadusman
+      emoji: 📊
+    - name: YouTube
+      icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@YourChannelName
+      emoji: 📺
+    - name: WhatsApp
+      icon: fontawesome/brands/whatsapp
+      link: https://whatsapp.com/channel/0029Vb7JHUQDp2QAAWG7AC0b
+      emoji: 📱
