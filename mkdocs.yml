@@ -7,12 +7,20 @@ use_directory_urls: true
 # ────────── Navigation ──────────
 nav:
   - 🏠 Home: index.md
-  - 🚀 Projects: Projects.md
-  - 🧠 Skills: Skills.md
-  - ✍️ Blog: Blog.md
-  - 🎓 Tasks: Tasks.md
-  - 📄 Resume: Resume.md
   - 👨‍🔬 About: About.md
+  - 🚀 Projects:
+      - Projects Overview: Projects.md
+      - Chickpea PARB Project: My_Projects/Chickpea_PARB_Project.md
+      - NIAB Blackgram Project: My_Projects/NIAB_Blackgram_Project.md
+  - ✍️ Blog:
+      - Blog Overview: Blog.md
+      - My journey in Tech AI: My_Blogs/My_journey_in_Tech_AI.md
+  - 🎓 Tasks:
+      - Tasks Overview: Tasks.md
+      - Farmer Advisor Dataset: My_Tasks/Farmer_advisor_dataset.md
+      - Market Researcher: My_Tasks/market_researcher.md
+  - 🧠 Skills: Skills.md
+  - 📄 Resume: Resume.md
   - 📬 Contact: Contact.md
 
 # ────────── Theme ──────────

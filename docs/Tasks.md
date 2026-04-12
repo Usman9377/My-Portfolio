@@ -8,3 +8,5 @@ This section outlines the tasks and goals I am currently working on to enhance m
 - [Global Progress in School Electrification Over Time - Dataset](https://www.kaggle.com/datasets/ranamuhammmadusman/progress-in-school-electrification-over-time)
 #### Task - 3: APP by Streamlit and deployed on Streamlit cloud
 - [Data Analysis and Visualization App](https://data-analysis-app-usman.streamlit.app/)
+#### Task - 4: Assignment of Features Encoding
+- [Features Encoding Assignment](My_Tasks/assignment.md)
