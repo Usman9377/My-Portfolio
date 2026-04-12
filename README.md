@@ -74,7 +74,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin[ https://github.com/Usman9377/My-Portfolio.git](https://github.com/Usman9377/My-Portfolio.git)
+git remote add origin[https://github.com/Usman9377/My-Portfolio.git](https://github.com/Usman9377/My-Portfolio.git)
 git push -u origin main
 ```
 Replace `yourusername` and `your-repo-name` with your GitHub username and the name of your repository, respectively.
